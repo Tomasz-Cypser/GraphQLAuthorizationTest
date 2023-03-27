@@ -1,7 +1,7 @@
 ﻿namespace GraphQLAuthorizationTest;
 
 [InterfaceType("IPagedResult")]
-internal interface IPagedResult
+public interface IPagedResult
 {
     int PageSize { get; }
 
